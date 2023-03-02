@@ -1,0 +1,6 @@
+#(macro recurse (n))
+    #(if n > 0)
+        #(recurse (n - 1))
+        #n
+    #(end if)
+#(end macro)

@@ -1,0 +1,6 @@
+#(if True)
+Foo
+#(end if)
+#(if False)
+Bar
+#(end if)
