@@ -48,4 +48,11 @@ A for directive repeats its contents a number of times, with a variable set to a
 
 ### Macros
 
-A macro defines a reusable piece of code that can be parameterized. A macro is defined by `#(macro *macro_name* (*parameters*)?)`, and ends with `#(end macro)`. Anything in between is evaluated as the macros content. A macro takes named parameters that can be used like regular variables in its invokation
+A macro defines a reusable piece of code that can be parameterized. A macro is defined by `#(macro *macro_name* (*parameters*)?)`, and ends with `#(end macro)`. Anything in between is evaluated as the macros content. A macro takes named parameters that can be used like regular variables in its invokation.
+
+A macro can be instantiated by using a directive with the function of the macro name
+
+
+## Warning
+
+This is not at all stable.
