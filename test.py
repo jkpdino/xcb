@@ -3,7 +3,7 @@ from pathlib import Path
 import subprocess
 
 def fail_test(test, expected, actual):
-    print(f"[x] {test}")
+    print(f"[✗] {test}")
 
     error_path = test + '.err'
 
@@ -18,7 +18,7 @@ def fail_test(test, expected, actual):
 
 
 def pass_test(test):
-    print(f"[ ] {test}")
+    print(f"[✓] {test}")
 
 
 tests = [str(x) for x in Path('.').rglob('*.xcb')]

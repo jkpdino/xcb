@@ -1,0 +1,7 @@
+#(macro HelloWorld)
+Hello World
+#(end macro)
+
+#(macro Hello (name))
+Hello #name
+#(end macro)
